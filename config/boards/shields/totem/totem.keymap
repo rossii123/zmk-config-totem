@@ -59,8 +59,8 @@
                 base_layer {
 // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 label= "BASE"                              ;
-// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-//             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
+// ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛jkjk
+//             ┏━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
 //             ┃     Q     ┃     W     ┃     F     ┃     P     ┃     G     ┃   ┃     J     ┃     L     ┃     U     ┃     Y     ┃     ;     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃     A     ┃     R     ┃     S     ┃     T     ┃     D     ┃   ┃     H     ┃     N     ┃     E     ┃     I     ┃     O     ┃
@@ -72,7 +72,7 @@ label= "BASE"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp Q       &kp W       &kp F       &kp P       &kp G           &kp J       &kp L       &kp U       &kp Y       &kp SEMI
+                &kp Q       &kp W       &kp F       &kp P       &sys_reset          &kp J       &kp L       &kp U       &kp Y       &kp SEMI
                 &mt LGUI A  &mt LALT R  &mt LCTRL S &mt LSHFT T &kp D           &kp H       &mt RSHFT N &mt RCTRL E &mt RALT I  &mt RGUI O
     &bt BT_CLR  &kp Z       &kp X       &kp C       &kp V       &kp B           &kp K       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp FSLH
                                         &kp TAB     &kp TAB     &lt NAV SPACE   &lt SYM RET &kp BSPC    &kp BSPC
